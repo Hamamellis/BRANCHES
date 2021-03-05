@@ -1,0 +1,61 @@
+WAGNER@WagnerBarros MINGW64 /c/GIT - GITHUB/branches (master)
+$ git log
+commit 9e223b9cf674a5763923d6c600d06f53582fc25f (HEAD -> master)
+Merge: 12f5448 34d3c23
+Author: hamamellis <wagnerhamamellis@gmail.com>
+Date:   Fri Mar 5 20:43:43 2021 -0300
+
+    Merge branch 'branch_nova'
+
+commit 12f54485a5e3ed4ae1404707ce74d6452eaf1d2e
+Author: hamamellis <wagnerhamamellis@gmail.com>
+Date:   Fri Mar 5 20:41:26 2021 -0300
+
+    Este é um novo arquivo criado na branch Master
+
+commit 34d3c23addb372af0d264b42da0aa84b17eee267 (branch_nova)
+Author: hamamellis <wagnerhamamellis@gmail.com>
+Date:   Fri Mar 5 20:38:35 2021 -0300
+
+    Criamos uma nova branch chamada de branc_nova e colocamos um arquivo Arquivo_3.txt nele
+
+commit f5178100d2c3e782445cf0932038a0c7d66f3586
+Author: hamamellis <wagnerhamamellis@gmail.com>
+Date:   Fri Mar 5 20:29:18 2021 -0300
+
+:...skipping...
+commit 9e223b9cf674a5763923d6c600d06f53582fc25f (HEAD -> master)
+Merge: 12f5448 34d3c23
+Author: hamamellis <wagnerhamamellis@gmail.com>
+
+WAGNER@WagnerBarros MINGW64 /c/GIT - GITHUB/branches (master)
+$ git log --graph
+*   commit 9e223b9cf674a5763923d6c600d06f53582fc25f (HEAD -> master)
+|\  Merge: 12f5448 34d3c23
+| | Author: hamamellis <wagnerhamamellis@gmail.com>
+| | Date:   Fri Mar 5 20:43:43 2021 -0300
+| |
+| |     Merge branch 'branch_nova'
+| |
+| * commit 34d3c23addb372af0d264b42da0aa84b17eee267 (branch_nova)
+| | Author: hamamellis <wagnerhamamellis@gmail.com>
+| | Date:   Fri Mar 5 20:38:35 2021 -0300
+| |
+| |     Criamos uma nova branch chamada de branc_nova e colocamos um arquivo Arquivo_3.txt nele
+| |
+* | commit 12f54485a5e3ed4ae1404707ce74d6452eaf1d2e
+|/  Author: hamamellis <wagnerhamamellis@gmail.com>
+|   Date:   Fri Mar 5 20:41:26 2021 -0300
+|
+|       Este é um novo arquivo criado na branch Master
+|
+* commit f5178100d2c3e782445cf0932038a0c7d66f3586
+| Author: hamamellis <wagnerhamamellis@gmail.com>
+| Date:   Fri Mar 5 20:29:18 2021 -0300
+|
+|     Realizamos o commit do arquivo_2 adicionado na stage
+|
+* commit ddf8670eb49e59786dbec30e183cd3be1495f70e
+| Author: hamamellis <wagnerhamamellis@gmail.com>
+| Date:   Fri Mar 5 20:27:02 2021 -0300
+|
